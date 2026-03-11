@@ -2,7 +2,7 @@
 
 Допустимо хранить секретную информацию в файле: personal.auto.tfvars
 
-"result": "A7m4K9q2T8b1R5x6"
+"result": "sFT8rYlf0byQrqtG"
 
 первая ошибка: блок resource должен содержать обязательно два параметра: тип объекта и уникальное имя в текущем проекте, отсутствует имя.
     вторая ошибка: Terraform не разрешает начинать имя ресурса с цифры.
@@ -24,13 +24,15 @@ resource "docker_container" "nginx" {
   }
 }
 ```
-<img width="1012" height="62" alt="изображение" src="https://github.com/user-attachments/assets/c8eb7f7c-4341-4d90-be67-cacdc8c00ee1" />
+<img width="1204" height="56" alt="изображение" src="https://github.com/user-attachments/assets/bac762ab-556d-47c7-8a38-68ef5fd51693" />
+
 
 -auto-approve отключает подтверждение изменений через ввод yes
 Но с -auto-approve изменения применяются автоматически, что убирает дополнительный контроль изменений.
 Ключ полезен для CI/CD pipelines, автоматического развёртывания инфраструктуры и автоматизации
 
-<img width="978" height="68" alt="изображение" src="https://github.com/user-attachments/assets/a6d54c16-b338-4e7a-8498-1fdcf3d37eac" />
+<img width="1087" height="57" alt="изображение" src="https://github.com/user-attachments/assets/7efbf82a-7598-4bbf-9d43-5e825d91db4b" />
+
 
 { 
   "version": 4, 
